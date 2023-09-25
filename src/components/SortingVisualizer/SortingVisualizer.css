@@ -1,0 +1,73 @@
+.header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db; 
+}
+
+.array-container {
+  position: absolute;
+  height: 100vh;
+  display: relative;
+  align-items: flex-end;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.array-bar {
+  width: 2.5px;
+  display: inline-block;
+  margin: 0 1px;
+  flex-grow: 1;
+  background-color: #3498db;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Add some margin between buttons */
+button + button {
+  margin-left: 10px;
+}
+
+/* Style for the button to generate a new array */
+.generate-array-button {
+  background-color: #e74c3c;
+}
+
+.generate-array-button:hover {
+  background-color: #c0392b;
+}
+
+.generate-array-button:focus {
+  outline: none;
+}
+
+/* Style for sorting algorithm buttons */
+.sort-button {
+  background-color: #3498db;
+}
+
+.sort-button:hover {
+  background-color: #2980b9;
+}
+
+.sort-button:focus {
+  outline: none;
+}
